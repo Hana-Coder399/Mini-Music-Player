@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta class='Links' http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Collection</title>
+        <link rel="stylesheet" href="style.css">   
+        <link rel="icon" href="data:, ">     
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="brand"><img src="logo.png" alt="Melody Logo"><a class="Links" href="index.html"><span id = 'mainTitle' class="songTitle">Melody</span></a></li>
+                <li ><a class='Links' href='index.html'>Home</a></li>
+                <li ><a class='Links' href='index.html'>About</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="songList">
+                <h1 style="color: black;">Best of Taylor Swift</h1>
+                <div class="songContainer">
+                    <div class="songItem">
+                        <img src="Covers/1.png" alt="1">
+                        <span class="songTitle">End Game</span>
+                        <span class="songPlay"><span class="timeStamp">04:34<i id = "1" class="fa-solid songItemPlay fa-circle-play" ></i></span>
+                        </span>
+                    </div>
+                    <div class="songItem">
+                        <img src="Covers/1.png" alt="1">
+                        <span class="songTitle">End Game</span>
+                        <span class="songPlay"><span class="timeStamp">04:34<i id = "2" class="fa-solid songItemPlay fa-circle-play"></i></span>
+                        </span>
+                    </div>
+                    <div class="songItem">
+                        <img src="Covers/1.png" alt="1">
+                        <span class="songTitle">End Game</span>
+                        <span class="songPlay"><span class="timeStamp">04:34<i id = "3" class="fa-solid songItemPlay fa-circle-play"></i></span>
+                        </span>
+                    </div>
+                    <div class="songItem">
+                        <img src="Covers/1.png" alt="1">
+                        <span class="songTitle">End Game</span>
+                        <span class="songPlay"><span class="timeStamp">04:34<i id = "4" class="fa-solid songItemPlay fa-circle-play"></i></span>
+                        </span>
+                    </div>
+                    <div class="songItem">
+                        <img src="Covers/1.png" alt="1">
+                        <span class="songTitle">End Game</span>
+                        <span class="songPlay"><span class="timeStamp">04:34<i id = "5" class="fa-solid songItemPlay fa-circle-play"></i></span>
+                        </span>
+                    </div>
+                    <div class="songItem">
+                        <img src="Covers/1.png" alt="1">
+                        <span class="songTitle">End Game</span>
+                        <span class="songPlay"><span class="timeStamp">04:34<i id = "6" class="fa-solid songItemPlay fa-circle-play"></i></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="songBanner"></div>
+        </div>
+
+        <div class="bottom">
+            <div class="bottom1">
+              <div>
+                <img src="play.gif" width=100px id="gif" alt="Playing">
+              </div>
+            </div>
+
+            
+            <div class="bottom2">
+            <input type="range" name="range" id="progress" min="0" value="0" max="100">
+            <div class="icons">
+                <i id = 'back' class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-circle-play" id="play"></i>
+                <i id = 'next' class="fa-solid fa-forward-step"></i>
+            </div>
+            <div class="songInfo">
+                <span class="songTitle">End Game</span>
+            </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/d6ce3b768c.js" crossorigin="anonymous"></script>
+    </body>
+</html>
